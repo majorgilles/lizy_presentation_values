@@ -7,6 +7,7 @@ size: 16:9
 style: |
   :root {
     --container-width: 100%;
+    font-size: 16px;
   }
 ---
 
@@ -26,15 +27,23 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: 2.2em;
+  width: 60%;
+  margin-bottom: 0.5em;
 }
 
 .journey-item {
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   border-left: 4px solid #FF5757;
-  padding-left: 12px;
+  padding-left: 10px;
   width: 100%;
   box-sizing: border-box;
   overflow-wrap: break-word;
+}
+
+.journey-item p {
+  margin: 5px 0;
+  font-size: 0.9em;
 }
 
 .highlight {
@@ -77,12 +86,18 @@ h1 {
 .phase {
   background-color: #f8f9fa;
   border-radius: 15px;
-  padding: 20px;
-  margin: 10px 0;
-  width: 100%;
-  max-width: 100%;
+  padding: 15px;
+  margin: 8px 0;
+  width: 60%;
+  max-width: 60%;
   box-sizing: border-box;
   overflow: hidden;
+}
+
+.phase h3 {
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .story {
@@ -92,8 +107,8 @@ h1 {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 100%;
-  max-width: 100%;
+  width: 60%;
+  max-width: 60%;
   box-sizing: border-box;
   overflow-wrap: break-word;
 }
