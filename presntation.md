@@ -3,7 +3,8 @@ marp: true
 theme: default
 paginate: true
 backgroundColor: #fff
-size: 16:9
+size: 4:3
+inlineSVG: true
 style: |
   :root {
     --container-width: 100%;
@@ -14,12 +15,14 @@ style: |
 <style>
 section {
   font-family: 'Montserrat', 'Segoe UI', sans-serif;
-  padding: 40px;
+  padding: 25px;
   background-color: #ffffff;
   color: #333333;
   box-sizing: border-box;
   overflow: hidden;
   width: 100%;
+  display: block;
+  position: relative;
 }
 
 h1 {
@@ -28,7 +31,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-size: 2.2em;
-  width: 60%;
+  width: 100%;
   margin-bottom: 0.5em;
 }
 
@@ -56,8 +59,8 @@ h1 {
 
 .value-card {
   text-align: center;
-  width: 45%;
-  max-width: 45%;
+  width: 48%;
+  max-width: 48%;
   padding: 20px;
   background-color: #f8f9fa;
   border-radius: 20px;
@@ -76,11 +79,12 @@ h1 {
 
 .flex-container {
   display: flex;
-  justify-content: space-around;
-  margin-top: 40px;
+  justify-content: space-between;
+  margin-top: 30px;
   flex-wrap: wrap;
   width: 100%;
   max-width: 100%;
+  gap: 15px;
 }
 
 .phase {
@@ -88,8 +92,8 @@ h1 {
   border-radius: 15px;
   padding: 15px;
   margin: 8px 0;
-  width: 60%;
-  max-width: 60%;
+  width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -107,8 +111,8 @@ h1 {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 60%;
-  max-width: 60%;
+  width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   overflow-wrap: break-word;
 }
@@ -123,7 +127,7 @@ h1 {
   </div>
   <div class="value-card">
     <h2>Drive</h2>
-    <p>Drive: The need to commit to a goal.</p>
+    <p>The need to commit to a goal.</p>
   </div>
 </div>
 
