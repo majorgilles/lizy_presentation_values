@@ -63,28 +63,30 @@ h1 {
 
 .value-card {
   text-align: center;
-  width: 48%;
-  max-width: 48%;
-  padding: 25px;
+  width: 70%;
+  max-width: 500px;
+  padding: 40px 25px;
   background-color: #f8f9fa;
   border-radius: 20px;
   border-top: 5px solid;
   box-sizing: border-box;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .value-card h2 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 
 .value-card p {
-  font-size: 1.1em;
-  line-height: 1.4;
+  font-size: 1.25em;
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -98,13 +100,15 @@ h1 {
 
 .flex-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   margin-top: 40px;
   flex-wrap: wrap;
   width: 100%;
   max-width: 100%;
-  gap: 20px;
-  align-items: stretch;
+  gap: 35px;
+  align-items: center;
+  height: calc(100% - 120px);
 }
 
 .phase {
@@ -155,7 +159,7 @@ h1 {
   </div>
   <div class="value-card">
     <h2>Drive</h2>
-    <p>The need to commit to a goal.</p>
+    <p>The need to commit to a goal</p>
   </div>
 </div>
 
