@@ -183,7 +183,7 @@ h1 {
   <h3>Phase 2: Advanced Architecture & AI</h3>
   <div class="journey-item">
     <p>DDD/Hexagonal Architecture + LLMs</p>
-    <p>Building complex systems with clean architecture to keep deliverying value.</p>
+    <p>Building complex systems with clean architecture to keep delivering value.</p>
     <p>Creating intelligent, agentic applications (in-progress)</p>
   </div>
 </div>
@@ -204,7 +204,7 @@ h1 {
   <div class="journey-item">
     <p>Taking ownership of problems until they're solved</p>
     <p>Doing what's necessary, even if sometimes difficult.</p>
-    <p>Not settling for the lower common denominator.</p>
+    <p>Not settling for the lowest common denominator.</p>
     <p>But perfection should stay a moving target! There's no absolutes.</p>
   </div>
 </div>
