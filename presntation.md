@@ -42,6 +42,7 @@ h1 {
   width: 100%;
   box-sizing: border-box;
   overflow-wrap: break-word;
+  text-align: left;
 }
 
 .journey-item p {
@@ -91,9 +92,9 @@ h1 {
   background-color: #f8f9fa;
   border-radius: 15px;
   padding: 15px;
-  margin: 8px 0;
-  width: 100%;
-  max-width: 100%;
+  margin: 8px auto;
+  width: 80%;
+  max-width: 600px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -106,15 +107,20 @@ h1 {
 
 .story {
   font-style: italic;
-  margin: 20px 0;
+  margin: 20px auto;
   padding: 15px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 100%;
-  max-width: 100%;
+  width: 80%;
+  max-width: 600px;
   box-sizing: border-box;
   overflow-wrap: break-word;
+}
+
+.story.full-width {
+  width: 100%;
+  max-width: 100%;
 }
 </style>
 
@@ -162,7 +168,7 @@ h1 {
 
 # Drive: The need to commit to a goal.
 
-<div class="story">
+<div class="story full-width">
   <p>"Fines were not working because of a recent switch to a new infrastructure for our AI applications. Needed to push into the wee hours
   so the business is not impacted."</p>
 </div>
