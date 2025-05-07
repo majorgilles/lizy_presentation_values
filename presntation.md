@@ -131,7 +131,7 @@ h1 {
   </div>
 </div>
 
-![bg right:35% 70%](https://via.placeholder.com/500x300/FF5757/ffffff?text=)
+![bg right:0% 100%](https://via.placeholder.com/500x300/FF5757/ffffff?text=)
 
 ---
 
@@ -156,7 +156,7 @@ h1 {
   </div>
 </div>
 
-![bg right:35% 70%](https://via.placeholder.com/500x300/FF5757/ffffff?text=)
+![bg right:0% 100%](https://via.placeholder.com/500x300/FF5757/ffffff?text=)
 
 ---
 
@@ -177,4 +177,4 @@ h1 {
   </div>
 </div>
 
-![bg right:35% 70%](https://via.placeholder.com/500x300/FF4E97/ffffff?text=)
+![bg right:0% 100%](https://via.placeholder.com/500x300/FF4E97/ffffff?text=)
