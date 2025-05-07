@@ -3,6 +3,11 @@ marp: true
 theme: default
 paginate: true
 backgroundColor: #fff
+size: 16:9
+style: |
+  :root {
+    --container-width: 100%;
+  }
 ---
 
 <style>
@@ -11,6 +16,9 @@ section {
   padding: 40px;
   background-color: #ffffff;
   color: #333333;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
 }
 
 h1 {
@@ -24,6 +32,9 @@ h1 {
   margin-bottom: 18px;
   border-left: 4px solid #FF5757;
   padding-left: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
 }
 
 .highlight {
@@ -37,10 +48,13 @@ h1 {
 .value-card {
   text-align: center;
   width: 45%;
+  max-width: 45%;
   padding: 20px;
   background-color: #f8f9fa;
   border-radius: 20px;
   border-top: 5px solid;
+  box-sizing: border-box;
+  margin-bottom: 15px;
 }
 
 .value-card:nth-child(1) {
@@ -55,6 +69,9 @@ h1 {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
 }
 
 .phase {
@@ -62,6 +79,10 @@ h1 {
   border-radius: 15px;
   padding: 20px;
   margin: 10px 0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .story {
@@ -71,6 +92,10 @@ h1 {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
 }
 </style>
 
