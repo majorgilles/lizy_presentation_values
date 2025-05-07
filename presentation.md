@@ -203,7 +203,7 @@ h1 {
   <h3>What Drive Means</h3>
   <div class="journey-item">
     <p>Taking ownership of problems until they're solved</p>
-    <p>Doing what's necessary, even if sometimes dicfficult.</p>
+    <p>Doing what's necessary, even if sometimes difficult.</p>
     <p>Not settling for the lower common denominator.</p>
     <p>But perfection should stay a moving target! There's no absolutes.</p>
   </div>
