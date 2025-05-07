@@ -8,14 +8,14 @@ inlineSVG: true
 style: |
   :root {
     --container-width: 100%;
-    font-size: 16px;
+    font-size: 18px;
   }
 ---
 
 <style>
 section {
   font-family: 'Montserrat', 'Segoe UI', sans-serif;
-  padding: 25px;
+  padding: 30px 25px;
   background-color: #ffffff;
   color: #333333;
   box-sizing: border-box;
@@ -23,6 +23,7 @@ section {
   width: 100%;
   display: block;
   position: relative;
+  height: 100%;
 }
 
 h1 {
@@ -30,9 +31,10 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-size: 2.2em;
+  font-size: 2.5em;
   width: 100%;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.7em;
+  margin-top: 0.3em;
 }
 
 .journey-item {
@@ -46,8 +48,9 @@ h1 {
 }
 
 .journey-item p {
-  margin: 5px 0;
-  font-size: 0.9em;
+  margin: 8px 0;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 .highlight {
@@ -62,12 +65,27 @@ h1 {
   text-align: center;
   width: 48%;
   max-width: 48%;
-  padding: 20px;
+  padding: 25px;
   background-color: #f8f9fa;
   border-radius: 20px;
   border-top: 5px solid;
   box-sizing: border-box;
   margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.value-card h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.value-card p {
+  font-size: 1.1em;
+  line-height: 1.4;
+  margin: 0;
 }
 
 .value-card:nth-child(1) {
@@ -81,41 +99,45 @@ h1 {
 .flex-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 40px;
   flex-wrap: wrap;
   width: 100%;
   max-width: 100%;
-  gap: 15px;
+  gap: 20px;
+  align-items: stretch;
 }
 
 .phase {
   background-color: #f8f9fa;
   border-radius: 15px;
-  padding: 15px;
-  margin: 8px auto;
-  width: 80%;
-  max-width: 600px;
+  padding: 18px;
+  margin: 15px auto;
+  width: 85%;
+  max-width: 650px;
   box-sizing: border-box;
   overflow: hidden;
 }
 
 .phase h3 {
-  font-size: 1.1em;
+  font-size: 1.3em;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  color: #333;
 }
 
 .story {
   font-style: italic;
-  margin: 20px auto;
-  padding: 15px;
+  margin: 25px auto;
+  padding: 20px;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 80%;
-  max-width: 600px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  width: 85%;
+  max-width: 650px;
   box-sizing: border-box;
   overflow-wrap: break-word;
+  font-size: 1.05em;
+  line-height: 1.5;
 }
 
 .story.full-width {
